@@ -86,6 +86,11 @@ Built in Kotlin (minSdk 26) using CameraX and TensorFlow Lite:
 - **On-Device Visual Explanation:** Activation-weighted Class Activation Mapping (CAM) jet-colour heatmap overlay highlighting defect regions (7×7 feature map).
 - **Field & Evaluation Controls:** Pinch-to-zoom for tight single-component framing, live NNAPI ON/OFF delegate toggle, frame capture with heatmap overlay, and an automated 50-run benchmark mode.
 
+<p align="center">
+  <img src="assets/Screenshot%202026-11-20%20105954.png" alt="PCB Inspector Live Camera Inference" width="300" />
+  <img src="assets/Screenshot%202026-11-20%20110128.png" alt="PCB Inspector CAM Heatmap Overlay" width="300" />
+</p>
+
 ## Repository Structure
 
 ```text
