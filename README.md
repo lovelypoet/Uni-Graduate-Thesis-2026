@@ -80,9 +80,9 @@ This project compresses an EfficientNet-B0 teacher network into a lightweight Mo
 
 ## Android Application Features (PCB Inspector)
 
-Built in Kotlin (minSdk 26) using CameraX and TensorFlow Lite:
+Built in Kotlin (minSdk 26) using GradCam and TensorFlow Lite:
 
-- **Live Camera Inference:** Google-Translate-style continuous component inspection with real-time class prediction and confidence scores.
+- **Live Camera Inference:** Based on Google-Translate-style continuous component inspection with real-time class prediction and confidence scores.
 - **On-Device Visual Explanation:** Activation-weighted Class Activation Mapping (CAM) jet-colour heatmap overlay highlighting defect regions (7×7 feature map).
 - **Field & Evaluation Controls:** Pinch-to-zoom for tight single-component framing, live NNAPI ON/OFF delegate toggle, frame capture with heatmap overlay, and an automated 50-run benchmark mode.
 
