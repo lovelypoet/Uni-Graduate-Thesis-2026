@@ -22,9 +22,9 @@ Post-AOI (Automated Optical Inspection) on Surface Mount Technology (SMT) produc
 
 This project compresses an EfficientNet-B0 teacher network into a lightweight MobileNetV3-Large student via Knowledge Distillation (KD), exporting the distilled model to TensorFlow Lite and deploying it inside a real-time Android application (**PCB Inspector**) with live camera inference and on-device visual explanations.
 
-**Đặc điểm nổi bật của bộ dữ liệu:** Đây là một trong những kho lưu trữ hiếm có trên thế giới cung cấp đầy đủ hình ảnh lỗi PCB — nhưng không phải là lỗi mạch in (board-level defects), mà là lỗi định vị linh kiện trên PCB (component placement defects), bao gồm thiếu linh kiện, lệch vị trí, nghiêng, tombstone, xoay và bridge.
+**Đặc điểm nổi bật của bộ dữ liệu:** Đây là bộ dữ liệu tôi tự thu dựa trên kinh nghiệm làm việc trong nhà máy, một trong những bộ dataset cung cấp đầy đủ hình ảnh lỗi PCB — nhưng không phải là lỗi mạch in (board-level defects), mà là lỗi định vị linh kiện trên PCB (component placement defects), bao gồm thiếu linh kiện, lệch vị trí, nghiêng, tombstone, xoay và bridge.
 
-**Dataset highlight:** This is one of the rare repositories worldwide that provides comprehensive PCB defect images — not board-level circuit defects, but **component placement defects on PCBs**, including missing, shift, tilt, tombstone, rotate, and bridge defects.
+**Dataset highlight:** This is a dataset I collected myself based on my experience working in a factory — one of the rare repositories worldwide that provides comprehensive PCB defect images — not board-level circuit defects, but **component placement defects on PCBs**, including missing, shift, tilt, tombstone, rotate, and bridge defects.
 
 ## Key Highlights
 
